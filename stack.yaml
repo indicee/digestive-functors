@@ -1,11 +1,10 @@
 save-hackage-creds: false
-resolver: lts-15.6
+resolver: lts-20.10
 
 extra-deps:
-- 'heist-1.1.0.1'
-- 'map-syntax-0.3'
-- 'happstack-server-7.6.0'
-- 'xmlhtml-0.2.5.2'
+- 'heist-1.1.1.1'
+- 'snap-core-1.0.5.1'
+- 'readable-0.3.1'
 
 packages:
 - 'digestive-functors/'
